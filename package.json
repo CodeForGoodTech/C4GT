@@ -4,7 +4,7 @@
   "description": "Code For Good Tech community repository",
   "private": true,
   "scripts": {
-    "lint": "prettier --check .",
+    "lint": "eslint . && prettier --check .",
     "format": "prettier --write .",
     "lint:staged": "lint-staged",
     "prepare": "husky"
