@@ -1,0 +1,28 @@
+{
+  "name": "c4gt",
+  "version": "1.0.0",
+  "description": "Code For Good Tech community repository",
+  "private": true,
+  "scripts": {
+    "lint": "prettier --check .",
+    "format": "prettier --write .",
+    "lint:staged": "lint-staged",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeForGoodTech/C4GT.git"
+  },
+  "keywords": [
+    "c4gt",
+    "dpg",
+    "open-source"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^10.15.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.6.2",
+    "prettier": "^3.10.1"
+  }
+}

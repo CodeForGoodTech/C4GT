@@ -1,7 +1,10 @@
 name: C4GT Community Template
 description: Create a new Ticket for C4GT Community
 title: "[C4GT Community]: "
-labels: ["Please add the C4GT Community Label on all tickets that you will list. In addition to this, please add whichever labels best describe your project from this list: C4GT Community, C4GT Coding, C4GT Design, C4GT Mentorship, C4GT Bounty, C4GT Advisory"]
+labels:
+  [
+    "Please add the C4GT Community Label on all tickets that you will list. In addition to this, please add whichever labels best describe your project from this list: C4GT Community, C4GT Coding, C4GT Design, C4GT Mentorship, C4GT Bounty, C4GT Advisory",
+  ]
 body:
   - type: textarea
     id: ticket-description
@@ -201,7 +204,7 @@ body:
 
   - type: dropdown
     id: ticket-complexity
-    attributes: 
+    attributes:
       label: Complexity
       description: Choose a complexity describing the complexity of your ticket
       multiple: false
@@ -214,7 +217,7 @@ body:
 
   - type: dropdown
     id: ticket-category
-    attributes: 
+    attributes:
       label: Category
       description: Choose the categories that best describe your ticket
       multiple: true
@@ -249,8 +252,3 @@ body:
         - Other
     validations:
       required: true
-
-  
-  
-
-  
