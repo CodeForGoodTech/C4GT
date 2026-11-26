@@ -19,3 +19,21 @@ Learn more about C4GT on our wiki page 👉🏻 https://github.com/CodeForGoodTe
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
   </a>
 </div>
+
+## Contributing & Development Setup
+
+To maintain consistent formatting and code quality, this repository uses [Husky](https://typicode.github.io/husky/) and [lint-staged](https://github.com/lint-staged/lint-staged) for automated pre-commit linting.
+
+### Setup
+
+1. Install project dependencies:
+   ```bash
+   npm install
+   ```
+2. Git hooks are automatically enabled via `prepare` script (`husky`).
+3. When creating a commit (`git commit`), `lint-staged` will automatically run formatters and linters on staged files.
+4. You can also manually format or check files:
+   ```bash
+   npm run lint        # Check formatting
+   npm run format      # Auto-format files
+   ```

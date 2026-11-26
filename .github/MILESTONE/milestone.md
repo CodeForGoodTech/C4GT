@@ -1,6 +1,7 @@
 # Week 1
 
 ## Milestones
+
 - [ ] Give the description about Milestone 1
 - [ ] Give the description about Milestone 2
 - [ ] Give the description about Milestone 3
@@ -11,6 +12,3 @@
 ## Contributions
 
 ## Learnings
-
-
-
